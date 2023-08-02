@@ -1,0 +1,27 @@
+spring:
+  main:
+    web-application-type: none
+  codec:
+    max-in-memory-size: 1000MB
+jia:
+  hanyang:
+    base-url: "http://hanyangkids.net"
+    login:
+      crypt-key: "bFhSWG0weE1GVmxXYmxKWFlUSm9WbGxyWkZOWFZteDBZM3BHYWxac1dqQlVWbEpUVmpBeFdWRnNiR0ZTVmxvelZrY3hTMUl4WkhWalJtUnBWMFpLZVZaclVrdFRNVWw0Vkc1R1VtSklRazlWYWtaS1pXeGtXR1JIUmxSTlZuQllWako0VjFaSFNraGhSbXhXWW01Q2VWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0="
+      login-type: "NVhVWDFSQ2FrVmxWYkd4U1ZrUkJPUT09"
+    boards:
+      30: 고운반
+      32: 사랑반
+      34: 믿음반
+      33: 어진반
+      31: 슬기반
+      62: 개나리반(방과후반)
+      55: 진달래반(방과후반)
+      58: 국화반(방과후반)
+      35: 매화반(방과후반)
+      73: 난초반(방과후반)
+logging:
+  level:
+    root: error
+  file:
+    path: log/
